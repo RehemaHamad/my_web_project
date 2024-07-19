@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #66cdf2;
+}
+
+.dashboard-container2 {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5e8bf4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button.logout-button {
+    background-color: #d9534f;
+}
+
+button:hover {
+    background-color: #89d1f6;
+}
+
+button.logout-button:hover {
+    background-color: #c9302c;
+}
+
+.students-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.students-table th, .students-table td {
+    border: 1px solid #060000;
+    padding: 8px;
+    text-align: left;
+}
+
+.students-table th {
+    background-color: #030607;
+    color: white;
+}

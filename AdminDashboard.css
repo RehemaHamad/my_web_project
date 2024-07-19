@@ -1,0 +1,48 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-style: normal;
+    color: #007bff;
+}
+
+.admin-dashboard {
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.left-section {
+    width: 20%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
+
+.right-section {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.left-section button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+.left-section button.logout-button {
+    background-color: #3572dc;
+}
